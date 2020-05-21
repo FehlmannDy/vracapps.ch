@@ -283,8 +283,9 @@ button:focus {
 	display: inline;
 	float: right;
 	margin-top: 200px;
+	margin-left: 50px;
 	text-align: center;
-	width: 60%;
+	width: 50%;
 }
 
 .mu-header-featured-content h1 {
@@ -798,7 +799,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 75px 0;
 	width: 100%;
 }
 
@@ -1019,6 +1020,37 @@ button:focus {
 	-webkit-border-radius: 4px;
 	 -moz-border-radius: 4px;
 	      border-radius: 4px;
+}
+
+/*-------------------*/
+/* Teams */
+/*-------------------*/
+
+#mu-teams {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-teams-area {
+	display: inline;
+	float: left;
+	padding: 75px 0;
+	width: 100%;
+}
+
+.row-teams{
+	margin-top: 5%;
+}
+
+.media-object-teams{
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+.btn-brand{
+	margin : 2%;
 }
 
 
