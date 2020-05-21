@@ -220,7 +220,7 @@ button:focus {
 .mu-header-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.8;
+	opacity: 0.9;
 	width: 100%;
 }
 
@@ -938,6 +938,7 @@ button:focus {
 	font-size: 18px;
 	padding: 10px;
 	height: 190px;
+	resize: vertical;
 }
 
 .mu-contact-form .form-control:focus {

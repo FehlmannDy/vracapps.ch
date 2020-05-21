@@ -2,8 +2,6 @@
 .mu-primary-btn:focus,
 .mu-copy-right a:hover,
 .mu-copy-right a:focus,
-.mu-send-msg-btn:hover,
-.mu-send-msg-btn:focus,
 .mu-apple-btn:hover,
 .mu-google-btn:hover,
 .mu-windows-btn:hover,
@@ -11,15 +9,12 @@
 .mu-google-btn:focus,
 .mu-windows-btn:focus,
 .mu-feature-content-right .media:hover .media-heading,
-.mu-apps-screenshot-slider .slick-next::before,
-.mu-apps-screenshot-slider .slick-prev::before,
 .mu-faq-content .panel-title a:hover,
 .mu-faq-content .panel-title a:focus,
 .mu-faq-content .panel-title a[aria-expanded="true"],
 .mu-faq-content .panel-title a>span,
 .mu-menu ul li a:hover,
-.mu-menu ul li a:focus,
-.btn-brand:hover {
+.mu-menu ul li a:focus{
 	color: #38A528;
 }
 
@@ -35,8 +30,16 @@
 } 
 
 .mu-send-msg-btn {
-	border: 1px solid #38A528;
-	background-color: #38A528;
+	border: 1px solid #3C5148;
+	background-color: #3C5148;
+}
+
+.mu-apps-screenshot-slider .slick-next::before,
+.mu-apps-screenshot-slider .slick-prev::before,
+.mu-send-msg-btn:hover,
+.mu-send-msg-btn:focus,
+.btn-brand:hover {
+	color: #3C5148;
 }
 
 .mu-header-overlay,
@@ -49,17 +52,17 @@
 	background-color: #3C5148;
 }
 .mu-feature-content-right .media:hover {
-	border-bottom: 1px solid #38A528;
+	border-bottom: 1px solid #3C5148;
 }
 
 .mu-apps-screenshot-slider .slick-next,
 .mu-apps-screenshot-slider .slick-prev {
-	border: 2px solid #38A528;
-	color: #38A528;
+	border: 2px solid #3C5148;
+	color: #3C5148;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #38A528;
+	border-top-color: #3C5148;
 
 }
 
