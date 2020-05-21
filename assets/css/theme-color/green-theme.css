@@ -18,7 +18,8 @@
 .mu-faq-content .panel-title a[aria-expanded="true"],
 .mu-faq-content .panel-title a>span,
 .mu-menu ul li a:hover,
-.mu-menu ul li a:focus {
+.mu-menu ul li a:focus,
+.btn-brand:hover {
 	color: #38A528;
 }
 

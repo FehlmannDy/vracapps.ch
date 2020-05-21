@@ -1206,6 +1206,7 @@ button:focus {
 
 	.mu-logo {
 		margin-top: 25px;
+		text-align: center;
 	}
 
 	.mu-logo img {
@@ -1241,6 +1242,7 @@ button:focus {
 
 	.mu-logo img {
 		width: 150px;
+		text-align: center;
 	}
 
 	.mu-video-close-btn {
@@ -1271,6 +1273,10 @@ button:focus {
 
 @media (max-width: 360px){
 
+	.mu-logo img {
+		width: 150px;
+		text-align: center;
+	}
 	.mu-video-iframe-area {
 		padding: 15% 5%;
 	}
@@ -1287,7 +1293,10 @@ button:focus {
 	.mu-video-iframe-area {
 		padding: 30% 5%;
 	}
-	
+	.mu-logo{
+		width: 150px;
+		text-align: center;
+	}
 	
 	
 	
