@@ -127,14 +127,14 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="mu-feature-content-left">
-											<img class="mu-profile-img" src="assets/images/iphone-group.png" alt="iphone Image">
+											<img class="mu-profile-img" src="assets/images/media-design.png" alt="iphone Image">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="mu-feature-content-right">
 
 											<!-- Start single feature item -->
-											<div class="media">
+											<div class="media" id="media-design">
 						                        <div class="media-left">
 						                        	<button class="btn mu-feature-btn" type="button">
 						                        		<i class="fa fa-tablet" aria-hidden="true"></i>
@@ -142,13 +142,13 @@
 						                        </div>
 						                        <div class="media-body">
 							                        <h3 class="media-heading">Un design facile d'utilisation</h3>
-							                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic at, omnis neque illum accusamus delectus consectetur perspiciatis fugiat ex veniam sit soluta iste, reprehenderit laboriosam!</p>
+							                        <p>L'application se regroupe en 6 section bien distincte : Fruits et légumes de saison, A propos, Carte de magasins, Liste de course, Recettes et Astuces et conseils.</p>
 						                        </div>
 						                    </div>
 						                    <!-- End single feature item -->
 
 						                    <!-- Start single feature item -->
-											<div class="media">
+											<div class="media" id="media-recipe">
 						                        <div class="media-left">
 						                        	<button class="btn mu-feature-btn" type="button">
 						                        		<i class="fa fa-sliders" aria-hidden="true"></i>
@@ -156,13 +156,13 @@
 						                        </div>
 						                        <div class="media-body">
 							                        <h3 class="media-heading">Proposition de de recettes intélligentes</h3>
-							                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident in voluptatum nihil suscipit molestias, excepturi blanditiis corrupti error tenetur ab, voluptates architecto nemo.</p>
+							                        <p>Dans la section recettes, detectera au file de vous recherche et séléction vos préférence alimentaire et vous proposera des recettes par rapport à vous préférances.</p>
 						                        </div>
 						                    </div>
 						                    <!-- End single feature item -->
 
 						                    <!-- Start single feature item -->
-											<div class="media">
+											<div class="media" id="media-fruits">
 						                        <div class="media-left">
 						                        	<button class="btn mu-feature-btn" type="button">
 						                        		<i class="fa fa-table fa-1x" aria-hidden="true"></i>
@@ -176,7 +176,7 @@
 						                    <!-- End single feature item -->
 
 						                    <!-- Start single feature item -->
-											<div class="media">
+											<div class="media" id="media-map">
 						                        <div class="media-left">
 						                        	<button class="btn mu-feature-btn" type="button">
 						                        		<i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -568,7 +568,28 @@
 	
 	
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!--Change image-->
+	<script>
+	$(document).ready(function(){
+		$('#media-design').hover(
+			function(){$('.mu-profile-img').attr("src","assets/images/media-design.png")},
+			function(){$('.mu-profile-img').attr("src","assets/images/media-design.png")}
+		);
+		$('#media-recipe').hover(
+			function(){$('.mu-profile-img').attr("src","assets/images/media-recipe.png")},
+			function(){$('.mu-profile-img').attr("src","assets/images/media-recipe.png")}
+		);
+		$('#media-fruits').hover(
+			function(){$('.mu-profile-img').attr("src","assets/images/media-fruits.png")},
+			function(){$('.mu-profile-img').attr("src","assets/images/media-fruits.png")}
+		);
+		$('#media-map').hover(
+			function(){$('.mu-profile-img').attr("src","assets/images/media-map.png")},
+			function(){$('.mu-profile-img').attr("src","assets/images/media-map.png")}
+		);
+	});
+	</script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
