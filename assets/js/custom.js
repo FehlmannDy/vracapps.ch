@@ -25,31 +25,31 @@
 	/*  1. FULL OVERLYAY MENU
 	/* ----------------------------------------------------------- */
 
-   $('.mu-menu-btn').on('click', function(event) {
+   $('.menu-btn').on('click', function(event) {
 	   
         event.preventDefault();
         
-        $('.mu-menu-full-overlay').addClass('mu-menu-full-overlay-show');
+        $('.menu-full-overlay').addClass('menu-full-overlay-show');
        
     });
    
     // when click colose btn
     
-    $('.mu-menu-close-btn').on('click', function(event) {
+    $('.menu-close-btn').on('click', function(event) {
 	    
 	    event.preventDefault();
 	    
-		$('.mu-menu-full-overlay').removeClass('mu-menu-full-overlay-show');
+		$('.menu-full-overlay').removeClass('menu-full-overlay-show');
 		
     });
 
     // when click menu item overlay disappear
 
-    $('.mu-menu a').on('click', function(event) {
+    $('.menu a').on('click', function(event) {
 	   
         event.preventDefault();
         
-        $('.mu-menu-full-overlay').removeClass('mu-menu-full-overlay-show');
+        $('.menu-full-overlay').removeClass('menu-full-overlay-show');
        
     });
 
@@ -59,7 +59,7 @@
 
 	//MENU SCROLLING WITH ACTIVE ITEM SELECTED
 
-	 $(".mu-menu a").click(function(event){
+	 $(".menu a").click(function(event){
          event.preventDefault();
          //calculate destination place
          var dest=0;
@@ -78,11 +78,11 @@
 	/*  3. VIDEO POPUP
 	/* ----------------------------------------------------------- */
 
-   $('.mu-video-play-btn').on('click', function(event) {
+   $('.video-play-btn').on('click', function(event) {
 	   
         event.preventDefault();
         
-        $('.mu-video-iframe-area').addClass('mu-video-iframe-display');
+        $('.video-iframe-area').addClass('video-iframe-display');
        
     });
    
@@ -90,33 +90,33 @@
 
     // disappear iframe window
     
-    $('.mu-video-close-btn').on('click', function(event) {
+    $('.video-close-btn').on('click', function(event) {
 	    
 	    event.preventDefault();
 	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
+		$('.video-iframe-area').removeClass('video-iframe-display');
 		
     });
 
     // stop iframe if it is play while close the iframe window
 
-    $('.mu-video-close-btn').click(function(){
+    $('.video-close-btn').click(function(){
 
-        $('.mu-video-iframe').attr('src', $('.mu-video-iframe').attr('src'));
+        $('.video-iframe').attr('src', $('.video-iframe').attr('src'));
 
     });
 
     // when click overlay area
 
-     $('.mu-video-iframe-area').on('click', function(event) {
+     $('.video-iframe-area').on('click', function(event) {
 	    
 	    event.preventDefault();
 	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
+		$('.video-iframe-area').removeClass('video-iframe-display');
 		
     });
 
-	$('.mu-video-iframe-area, .mu-video-iframe').on('click', function(e){
+	$('.video-iframe-area, .video-iframe').on('click', function(e){
 	    e.stopPropagation();
 	});
 
@@ -125,7 +125,7 @@
 	/*  4. APPS SCREENSHOT SLIDEER ( SLICK SLIDER )
 	/* ----------------------------------------------------------- */
 
-		$('.mu-apps-screenshot-slider').slick({
+		$('.apps-screenshot-slider').slick({
 		  slidesToShow: 4,
 		  responsive: [
 		    {
