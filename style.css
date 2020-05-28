@@ -160,7 +160,6 @@ button:focus {
 	border: none;
 }
 
-
 /* ========= BUTTON =========*/
 
 .mu-primary-btn {
@@ -202,7 +201,20 @@ button:focus {
 	background-color: #fff;
 }
 
-
+/* ========= Cookie =========*/
+#cookie-consent{
+	position: fixed;
+	width: 100%;
+	color: #fff;
+	bottom: 1px;
+	background-color: rgba(0, 0, 0, 0.562);
+	font-size: 20px;
+	padding: 5px 14px;
+	z-index: 999;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
 
 /*--------------------*/
 /* HEADER */
