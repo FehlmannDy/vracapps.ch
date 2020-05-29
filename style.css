@@ -601,7 +601,7 @@ button:focus {
 
 
 #video {
-	background-image: url("assets/images/video-bg.jpeg");
+	background-image: url("assets/images/video-wallpaper.png");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -770,7 +770,7 @@ button:focus {
 /*--------------------*/
 
 #download {
-	background-image: url("assets/images/download-bg.jpeg");
+	background-image: url("assets/images/download-wallpaper.png");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
