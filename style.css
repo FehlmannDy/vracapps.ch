@@ -8,6 +8,7 @@
 #VIDEO
 #APPPS SCREENSHOT
 #DOWNLOAD
+#TEAMS
 #FAQ
 #CONTACT US
 #FOOTER
@@ -1016,10 +1017,14 @@ button:focus {
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.2s ease-in-out 0s;
-	width: 35px;
-	height: 35px;
+	width: 60px;
+	height: 60px;
 	line-height: 35px;
 	font-size: 15px;
+}
+
+.social-media a i{
+	padding-top: 5px;
 }
 
 #form-messages {
