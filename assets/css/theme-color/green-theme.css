@@ -38,7 +38,8 @@
 .apps-screenshot-slider .slick-prev::before,
 .msend-msg-btn:hover,
 .send-msg-btn:focus,
-.btn-brand:hover {
+.btn-brand:hover,
+.mailto:hover {
 	color: #3C5148;
 }
 
