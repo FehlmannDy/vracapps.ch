@@ -46,6 +46,28 @@
 		</div>
 	</section>
 	<!-- End Cookie consent-->
+
+	<!-- POPUP BETA -->
+	<div class="lightbox">
+		<div class="iframeContainer">
+		  <div class="toolbarLB">
+			<span class="closeLB" onclick="lightBoxClose()">x</span>
+		  </div>
+		  <div class="container-popup">
+			<h2>Voulez-vous participer à la <br>Beta fermée de l'application VracApps ?</h2>
+			<h6>Prérequis :</h6>
+			<p>	- Avoir un Smartphones Android</p>
+			<p>	- Ajouter votre adresse e-mail pour recevoir l'accès à l'application</p>
+			<form id="ajax-contact" method="post" action="mail.php" class="contact-form">
+				<div class="form-group">                
+					<input type="email" class="form-control" placeholder="Adresse e-mail" id="email" name="email" required>
+				</div>              
+				<button type="submit" class="send-msg-btn"><span>Envoyer</span></button>
+			</form>
+		  </div>
+		</div>
+	</div>
+	<!-- End POPUP BETA -->
   	
   	<!-- Start Header -->
 	<header id="header" class="" role="banner">
@@ -611,6 +633,9 @@
 		}
 		function alert_coming(){
 			alert("Non disponible pour le moment.");
+		}
+		lightBoxClose = function() {
+  			document.querySelector(".lightbox").classList.add("closed");
 		}
 	</script>
   </body>
