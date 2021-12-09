@@ -177,7 +177,32 @@ button:focus {
 .primary-btn:focus {
 	background-color: #fff;
 }
-
+.sondage-msg-btn{
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 14px 24px;
+	margin-top: 10px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 200px;
+	background-color: #38A528;
+	border-radius: 10px;
+	color: #ffffff;
+}
+.sondage-msg-btn a{
+	color: #fff;
+}
+.sondage-msg-btn:hover a,
+.sondage-msg-btn:focus a{
+	color: #38A528;
+}
+.sondage-msg-btn:hover,
+.sondage-msg-btn:focus{
+	background-color: #fff;
+	color: #38A528;
+}
 .send-msg-btn {
 	color: #555;
 	font-size: 13px;
